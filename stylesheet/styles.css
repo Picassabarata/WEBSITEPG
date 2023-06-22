@@ -1,0 +1,247 @@
+ /* Homepage */
+
+/*JS FOR VIDEO*/
+
+.introvideo {
+  position:fixed;
+   bottom: 0;
+   left:0;
+   top:0;
+   min-width: 90%;
+   min-height: 90%;
+   width: flex;
+   height: flex;
+   z-index:-1;
+   filter:opacity(90%);
+   transform: translateX(50%)
+   translateY(50);
+   filter: saturate();
+}
+
+body, html {
+font-family: "bc-alphapipe", sans-serif;
+font-weight: 800;
+font-style: normal;
+color:#ffffffe9;
+font-size:large;
+text-shadow: 2px 2px #000000c5;
+}
+
+
+.box {
+   width: 70%;
+   margin: auto;
+   border-radius: 8px;
+   border-style: inset;
+   overflow: hidden;
+   background: radial-gradient(#7665b4 10px, #e9dde565) 50%;
+
+}
+
+.content {
+   height: max-content;
+   max-height: 0px;
+   overflow: hidden;
+   transition: max-height 500ms cubic-bezier(0.7, 0, 0.84, 0.70);
+   
+}
+/*JS need to make two classes for transition*/
+
+.item {
+   border: 3px rgba(199, 125, 194, 0.44);
+   border-style: inset;
+   cursor:pointer;
+   
+ }
+  /*cursor pointer needs JS to make it functional*/
+   
+.item .header {
+   width: 100%;
+   text-align: center;
+}
+
+.header {
+   margin-top: 2%;
+}
+
+.header:hover{
+   color: #ffffff;
+   text-shadow: 2px 2px #8055b9;
+   
+}
+
+.item:hover .content {
+   max-height: 1000px;
+}
+
+img {
+   display: block;
+   margin-left:  auto;
+   margin-right: auto;
+   
+}
+
+footer{
+   color:#97739e;
+   font-style: italic;
+   padding-top: 10%;
+   text-align: center;
+}
+
+
+button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: none;
+   background-color: inherit;
+}
+
+a {
+   padding: 5px 20px 5px;
+   text-decoration: none;
+   font-style: italic;
+   color: rgba(255, 255, 255, 0.851);
+}
+
+
+/* about page */
+
+body, html{
+   height: 100%;
+   width: 100%;
+}
+
+.aboutbgvideo {
+   position:fixed;
+   bottom: 0;
+   left:0;
+   top:0;
+   min-width: 100%;
+   min-height: 100%;
+   width: flex;
+   height: flex;
+   z-index:-1;
+   filter:opacity(100%);
+   transform: translateX(50%)translateY(50);
+   filter: saturate();
+}
+.container{
+   padding:1em;
+}
+
+.topnav a{
+   display:inline-flex;
+   padding: 5px 20px 5px;
+   background-color: #60407d5f;
+   border: 2px solid rgb(143, 96, 143);
+   border-radius: 10px;
+   text-decoration: none;
+   font-style: italic;
+   color: rgba(255, 255, 255, 0.851);
+   
+   
+}
+
+.topnav a:hover{
+   background-color: #9071b0da;
+   border: 2px solid rgb(88, 33, 88);
+   border-radius: 10px;
+   transition: width 350ms ease-in-out;
+   
+}
+
+h3 {
+color:#c6b1d9cb;
+font-size: 60px; 
+font-style: italic;
+margin: 0;
+padding:2%;
+}
+
+/* PORTFOLIO */
+
+body, html {
+   font-family: "bc-alphapipe", sans-serif;
+   font-weight: 800;
+   font-style: normal;
+   color:#ffffffe9;
+   font-size:large;
+   text-shadow: 2px 2px #000000c5;
+   }
+
+.portfoliovideo {
+      position:fixed;
+       bottom: 0;
+       left:0;
+       top:0;
+       min-width: 90%;
+       min-height: 90%;
+       width: flex;
+       height: flex;
+       z-index:-1;
+       filter:opacity(90%);
+       transform: translateX(50%)
+       translateY(50);
+       filter:saturate();
+    }
+   
+h3 {
+   text-align: center;
+   text-shadow:3px 2px rgb(255, 255, 255);
+}
+
+/*APPOINTMENTS*/
+
+h1 {
+   text-align: center;
+   font-style: italic;
+   text-shadow: 2px 2px rgb(156, 97, 178);
+}
+p{
+   font-size:small;
+   font-weight:50;
+   margin:10px;
+}
+
+h2{
+   text-align:center;
+   font-style:normal;
+   text-shadow: 2px 2px rgb(156, 97, 178);
+}
+
+/*appointment*/
+
+form {
+   font-size:medium;
+   font-weight:30;
+   margin:5px;
+   padding:10px;
+}
+
+input {
+   border-radius:10px;
+   margin-right: 60%;
+   background-color: #ffffff64;
+   font-style: italic;
+   color:rgb(0, 0, 0);
+   width: 350px;
+   
+}
+
+input:hover {
+   background-color: #fefefeee;
+}
+
+p{
+   font-size:medium;
+   font-weight:30;
+   margin:5px;
+}
+
+input[type="radio"]{
+   display: table-cell;
+   vertical-align: middle;
+}
+
+
