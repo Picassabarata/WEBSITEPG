@@ -2,35 +2,36 @@
 
 /*JS FOR VIDEO*/
 
+body, html {
+   font-family: "bc-alphapipe", sans-serif;
+   font-weight: 800;
+   font-style: normal;
+   color:#ffffffe9;
+   font-size:large;
+   text-shadow: 2px 2px #000000c5;
+   }
+   
+
 .introvideo {
-  position:fixed;
+   position:fixed;
    bottom: 0;
    left:0;
    top:0;
-   min-width: 90%;
-   min-height: 90%;
+   min-width: 100%;
+   min-height: 100%;
    width: flex;
    height: flex;
    z-index:-1;
    filter:opacity(90%);
    transform: translateX(50%)
    translateY(50);
-   filter: saturate();
+   filter:saturate();
 }
 
-body, html {
-font-family: "bc-alphapipe", sans-serif;
-font-weight: 800;
-font-style: normal;
-color:#ffffffe9;
-font-size:large;
-text-shadow: 2px 2px #000000c5;
-}
 
 
 .box {
-   width: 70%;
-   margin: auto;
+   position: relative;
    border-radius: 8px;
    border-style: inset;
    overflow: hidden;
@@ -75,10 +76,14 @@ text-shadow: 2px 2px #000000c5;
 }
 
 img {
-   display: block;
-   margin-left:  auto;
-   margin-right: auto;
-   
+   position: relative;
+   right: 60px;
+
+}
+
+.instagramlogo {
+   position: relative;
+   left: 120px;
 }
 
 footer{
@@ -89,84 +94,26 @@ footer{
 }
 
 
-button {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border: none;
-   background-color: inherit;
-}
-
 a {
    padding: 5px 20px 5px;
    text-decoration: none;
    font-style: italic;
    color: rgba(255, 255, 255, 0.851);
+   position:relative;
+   left: center;
 }
 
 
 /* about page */
 
-body, html{
-   height: 100%;
-   width: 100%;
-}
 
-.aboutbgvideo {
-   position:fixed;
-   bottom: 0;
-   left:0;
-   top:0;
-   min-width: 100%;
-   min-height: 100%;
-   width: flex;
-   height: flex;
-   z-index:-1;
-   filter:opacity(100%);
-   transform: translateX(50%)translateY(50);
-   filter: saturate();
-}
-.container{
-   padding:1em;
-}
-
-.topnav a{
-   display:inline-flex;
-   padding: 5px 20px 5px;
-   background-color: #60407d5f;
-   border: 2px solid rgb(143, 96, 143);
-   border-radius: 10px;
-   text-decoration: none;
-   font-style: italic;
-   color: rgba(255, 255, 255, 0.851);
-   
-   
-}
-
-.topnav a:hover{
-   background-color: #9071b0da;
-   border: 2px solid rgb(88, 33, 88);
-   border-radius: 10px;
-   transition: width 350ms ease-in-out;
-   
-}
-
-h3 {
-color:#c6b1d9cb;
-font-size: 60px; 
-font-style: italic;
-margin: 0;
-padding:2%;
-}
 
 /* PORTFOLIO */
 
 body, html {
    font-family: "bc-alphapipe", sans-serif;
-   font-weight: 800;
    font-style: normal;
    color:#ffffffe9;
-   font-size:large;
    text-shadow: 2px 2px #000000c5;
    }
 
@@ -175,8 +122,8 @@ body, html {
        bottom: 0;
        left:0;
        top:0;
-       min-width: 90%;
-       min-height: 90%;
+       min-width: 100%;
+       min-height: 100%;
        width: flex;
        height: flex;
        z-index:-1;
@@ -208,6 +155,7 @@ h2{
    text-align:center;
    font-style:normal;
    text-shadow: 2px 2px rgb(156, 97, 178);
+   padding-bottom: 5%;
 }
 
 /*appointment*/
@@ -215,8 +163,8 @@ h2{
 form {
    font-size:medium;
    font-weight:30;
-   margin:5px;
-   padding:10px;
+   margin: 10px;
+   padding: 20px;
 }
 
 input {
@@ -236,12 +184,13 @@ input:hover {
 p{
    font-size:medium;
    font-weight:30;
-   margin:5px;
+   margin:4px;
 }
 
 input[type="radio"]{
    display: table-cell;
-   vertical-align: middle;
 }
 
-
+svg{
+   position:absolute;
+}
