@@ -1,0 +1,90 @@
+ /* Homepage */
+
+/*JS FOR VIDEO*/
+body {
+    height:100px;
+    align-items: center;
+ }
+ 
+ body, html {
+    font-family: "bc-alphapipe", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color:#ffffffe9;
+    font-size:large;
+    text-shadow: 2px 2px #000000c5;
+    }
+    
+  img {
+    position: relative;
+    right: 60px;
+ 
+ }
+ 
+ .introvideo {
+    position:fixed;
+    left:0;
+    top:0;
+    min-width: 100%;
+    min-height: 100%;
+    width: flex;
+    height: flex;
+    z-index:-1;
+    filter:opacity(90%);
+    transform: translateX(50%)
+    translateY(50);
+    filter:saturate();
+ }
+ 
+ 
+ 
+ .box {
+    position: relative;
+    left: 100px;
+    border-radius: 8px;
+    border-style: inset;
+    overflow: hidden;
+    background: radial-gradient(#7665b4 10px, #e9dde565) 50%;
+    width:fit-content;
+ }
+ 
+ .item {
+    border: 3px rgba(199, 125, 194, 0.44);
+    border-style: inset;
+    cursor:pointer;
+    
+  }
+    
+ .item .header {
+    width: 100%;
+    text-align: center;
+ }
+ 
+ .header {
+    margin-top: 2%;
+ }
+
+ footer{
+    color:#97739e;
+    font-style: italic;
+    position: absolute;
+    bottom: 10%;
+    left: 40%;  
+ }
+ 
+ 
+ .instagramlogo {
+    position: absolute;
+    top: 100px;
+    left: 175px;
+ }
+ 
+
+ a {
+    padding: 5px 20px 5px;
+    text-decoration: none;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.851);
+    position:relative;
+ }
+ 

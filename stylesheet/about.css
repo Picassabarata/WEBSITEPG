@@ -1,0 +1,59 @@
+body, html{
+   height: 100%;
+   width: 100%;
+   font-family: "bc-alphapipe", sans-serif;
+   font-style: normal;
+   color:#ffffffe9;
+   text-shadow: 2px 2px #000000c5;
+ }
+    
+ .aboutbgvideo {
+    position:fixed;
+    bottom: 0;
+    left:0;
+    top:0;
+    min-width: 100%;
+    min-height: 100%;
+    width: flex;
+    height: flex;
+    z-index:-1;
+    filter:opacity(100%);
+    transform: translateX(50%)translateY(50);
+    filter: saturate();
+ }
+
+ .container{
+    padding:1em;
+ }
+ 
+ .topnav a{
+    display:block;
+    padding: 10px 20px 10px;
+    background-color: #60407d5f;
+    border: 2px solid rgb(143, 96, 143);
+    border-radius: 10px;
+    text-decoration: none;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.851);
+    font-size: 30px;
+    padding:initial;
+    text-align: center;
+ }
+ 
+ .topnav a:hover{
+    background-color: #9071b0da;
+    border: 2px solid rgb(88, 33, 88);
+    border-radius: 10px;
+    transition: width 350ms ease-in-out;
+    
+ }
+ 
+ h3 {
+ color:#c6b1d9cb;
+ font-size: 60px; 
+ font-style: italic;
+ margin: 0;
+ padding:2%;
+ text-align: center;
+ text-shadow:3px 2px rgb(255, 255, 255);
+ }
