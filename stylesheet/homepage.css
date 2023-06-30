@@ -3,6 +3,7 @@
 /*JS FOR VIDEO*/
    body {
     height:100px;
+    align-items: center;
  }
 
    body, html {
@@ -15,10 +16,7 @@
     }
 
 
-  img {
-    position: absolute;
-    left: 25%;
- }
+
 
  .introvideo {
     position:fixed;
@@ -38,18 +36,15 @@
 
 
  .box {
-    position: absolute;
-    left: 380px;
-    top: 300px;
+
     border-radius: 8px;
     border-style: inset;
-    overflow: hidden;
     background: radial-gradient(#7665b4 10px, #e9dde565) 50%;
-    width:fit-content;
+    width: 300px;
  }
 
  .item {
-    border: 3px rgba(199, 125, 194, 0.44);
+    border: 2px rgba(199, 125, 194, 0.44);
     border-style: inset;
     cursor:pointer;
 
@@ -61,28 +56,23 @@
  }
 
  .header {
-    margin-top: 2%;
+    text-align: justify;
+    padding: 5px 5px;
  }
 
  footer{
     color:#97739e;
     font-style: italic;
-    position: absolute;
-    bottom: 10%;
-    left: 40%;
  }
 
 
  .instagramlogo {
-   top: 600px;
-   position: absolute;
-   left: 45%;
+   align-items: center;
    }
 
 
 
  a {
-    padding: 5px 20px 5px;
     text-decoration: none;
     font-style: italic;
     color: rgba(255, 255, 255, 0.851);

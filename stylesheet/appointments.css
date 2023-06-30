@@ -3,6 +3,12 @@ body {
    height:100px;
    align-items: center;
 }
+h1{
+   font-size: 50px;
+   font-style: italic;
+   padding:10px;
+   text-align: center;
+}
 
 .topnav a{
    display:block;
@@ -21,8 +27,10 @@ body {
 body, html {
    font-family: "bc-alphapipe", sans-serif;
    font-style: normal;
+   font-size:large;
    color:#ffffffe9;
    text-shadow: 2px 2px #000000c5;
+   line-height:1.2;
    }
 
 .portfoliovideo {
@@ -44,15 +52,16 @@ body, html {
 
 .box {
    background-color: rgba(112, 59, 137, 0.836);
-   position:absolute;
-   left: 30%;
-   padding: 20px 20px;
+   padding-inline: 1em 2em;
+   padding: 1em;
    border-radius: 20px;
    border-width: 20px;
+   font-size: larger;
+
 }
 
 img {
-   padding: 20%;
+   position:relative;
    background-color: rgba(103, 60, 127, 0.423);
    border-radius: 20px;
    border-style:dotted;
@@ -60,13 +69,14 @@ img {
 
 }
 
-.container {
-   width: 100px;
-   padding: 20px 70px;
-
+.box3 {
+   border-radius: 10px;
+   width:300px;
 }
 
-.radio {
-   border-radius: 20px;
-   background-color: black;
+input{
+   font-size: large;
+   font-style: italic;
+   font-family: "bc-alphapipe", sans-serif;
 }
+
