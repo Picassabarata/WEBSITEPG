@@ -9,14 +9,14 @@
     <title>Appointments+Forms</title>
 </head>
 <body>
-    
+
     <video class="portfoliovideo" src="media/appointments.mp4" autoplay loop muted>
     </video>
 
     <div>
-        <div class="container">
+        <div class="container1">
             <div class="topnav">
-                <a href="homepage.html">Homepage</a>                
+                <a href="homepage.html">Homepage</a>
                 <a href="about.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="collaborations.html">Collaborations</a>
@@ -25,13 +25,13 @@
 
         <h1>Appointments</h1>
         <p> Each piece is custom made to order and because of the cost of labour, we are unable to offer any refunds or exchanges once the piece has been started.
-            
+
         <p>The deposit (50%) will be used to fulfil the order. This deposit covers the materials used to process your order.
             Because we are outsourcing the casting, orders will take up to 2-3 weeks.
             We do not use diamonds, or add colours to grillz and we do not make grillz for pre-molars or molars.
             If you have any underlying dental issues (especially gum problems), please see your dentist beforehand.
             If you have any other questions, please email picassagrillz@gmail.com
-             
+
         <p>Once your completed form is received, we will be in contact to set an appointment and to discuss your order. </p><br>
 
 <!--form action is to add php page-->
@@ -40,7 +40,7 @@
 
             <label for="name">Name/Preferred Name:</label>
             <input type="text" id="name" name="Name/PreferredName"><br>
-            
+
             <label for="pronouns">Pronouns:</label>
             <input type="text" id="pronouns" name="Pronouns"
             placeholder="Optional"><br>
@@ -58,16 +58,17 @@
             <input type="text" id="postcode" name="Postcode"><br>
 
             <label for="allergies">Allergies?</label>
-            <input type="text" id="allergy" name="Allergies"><br>   
+            <input type="text" id="allergy" name="Allergies"><br>
 
-            <label for="ortho">Any permanent retainers or current orthodontic procedures eg.invisalign?</label><br>
+            <label for="ortho">Any permanent retainers or current orthodontic procedures eg.invisalign?</label><br><br>
             <input type="text" id="ortho" name="Ortho"
             placeholder="if yes, please specify">
-        
-            
-        <p>Choose the teeth you would want the grillz to be situated</p><br>
-        <img src="teeth.svg" alt="teeth" height="300"/>
-                
+
+
+        <p>Choose the teeth you would want the grillz to be situated:</p>
+        <div class= "container">
+        <img src="teeth.svg" alt="teeth" height="300">
+        </div>
         Choose the preferred metal:
         <div class="metal-options"></div>
             <input type="radio" id="Silver925" name="metals" value="SILVER">
@@ -78,14 +79,14 @@
 
             <input type="radio" id="Gold18ct" name="metals" value="GOLD18CT">
             <label for="gold18ct">Gold 18ct</label><br>
-       
+
        <br><p>Design idea:</p>
 
         <form action="">
             <input type="file" id="myFile" name="filename"><br>
             <input type="submit">
         </form>
-    </div> 
+    </div>
 </div><br>
 </body>
 </html>

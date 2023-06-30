@@ -17,7 +17,7 @@ body {
    padding:initial;
    text-align: center;
 }
-   
+
 body, html {
    font-family: "bc-alphapipe", sans-serif;
    font-style: normal;
@@ -40,8 +40,33 @@ body, html {
        translateY(50);
        filter:saturate();
     }
-   
-h3 {
-   text-align: center;
-   text-shadow:3px 2px rgb(255, 255, 255);
+
+
+.box {
+   background-color: rgba(112, 59, 137, 0.836);
+   position:absolute;
+   left: 30%;
+   padding: 20px 20px;
+   border-radius: 20px;
+   border-width: 20px;
+}
+
+img {
+   padding: 20%;
+   background-color: rgba(103, 60, 127, 0.423);
+   border-radius: 20px;
+   border-style:dotted;
+   border-color: rgb(87, 31, 87);
+
+}
+
+.container {
+   width: 100px;
+   padding: 20px 70px;
+
+}
+
+.radio {
+   border-radius: 20px;
+   background-color: black;
 }
