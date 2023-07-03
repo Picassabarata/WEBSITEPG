@@ -1,16 +1,17 @@
  /* Homepage */
 
 /*JS FOR VIDEO*/
-   body {
+ body {
     height:100px;
     align-items: center;
- }
+   
+   }
 
-   body, html {
+ body, html {
     font-family: "bc-alphapipe", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
-    color:#ffffffe9;
+    color:#6b2a62fc;
     font-size:large;
     text-shadow: 2px 2px #000000c5;
     }
@@ -33,47 +34,51 @@
     filter:saturate();
  }
 
+ .topnav a{
+   display:block;
+   padding: 10px 20px 10px;
+   background-color: #60407d5f;
+   border: 2px solid rgb(143, 96, 143);
+   border-radius: 10px;
+   text-decoration: none;
+   font-style: italic;
+   color: rgba(255, 255, 255, 0.851);
+   font-size: 30px;
+   padding:initial;
+   text-align: center;
+}
 
 
- .box {
 
-    border-radius: 8px;
-    border-style: inset;
-    background: radial-gradient(#7665b4 10px, #e9dde565) 50%;
-    width: 300px;
- }
 
- .item {
-    border: 2px rgba(199, 125, 194, 0.44);
-    border-style: inset;
-    cursor:pointer;
-
-  }
-
- .item .header {
+.item .header {
     width: 100%;
     text-align: center;
  }
 
- .header {
+.header {
     text-align: justify;
     padding: 5px 5px;
  }
 
- footer{
-    color:#97739e;
-    font-style: italic;
- }
-
-
  .instagramlogo {
-   align-items: center;
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+}   
+ .iconlogo{
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
    }
 
 
-
- a {
-    text-decoration: none;
-    font-style: italic;
-    color: rgba(255, 255, 255, 0.851);
+ footer{
+   font-weight: 600;
+   font-size: larger;
+   margin-top: 60px;
+   color:#97739e;
+   font-style: italic;
+   padding:initial;
+   text-align: center;
 }

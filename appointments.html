@@ -35,11 +35,12 @@
         <p>Once your completed form is received, we will be in contact to set an appointment and to discuss your order. </p><br>
 
 <!--form action is to add php page-->
+
             <div class="box">
             <form action="">
 
             <label for="name">Name/Preferred Name:</label>
-            <input class="box3" type="text" id="name" name="Name/PreferredName"><br>
+            <input class="box3" type="text" id="name" name="Name"><br>
 
             <label for="pronouns">Pronouns:</label>
             <input class="box3" type="text" id="pronouns" name="Pronouns"
@@ -73,20 +74,32 @@
         <div class="metal-options"></div>
             <input type="radio" id="Silver925" name="metals" value="SILVER">
             <label for="silver925">Silver 925</label><br>
+            <?php print $Silver925_status; ?>Silver 925<
+
 
             <input type="radio" id="Gold9ct" name="metals" value="GOLD9CT">
             <label for="gold9ct">Gold 9ct</label><br>
+            <?php print $Gold9ct_status; ?>Gold9ct<
 
             <input type="radio" id="Gold18ct" name="metals" value="GOLD18CT">
-            <label for="gold18ct">Gold 18ct</label><br>
+            <label for="gold18ct">Gold 18ct</label><br> 
+            <?php print $Gold18ct_status; ?>Gold18ct<
+
+            <input type="radio" id="Unsure" name="metals" value="UNSURE">
+            <label for="Unsure">Unsure</label><br> 
+            <?php print $Unsure_status; ?>Unsure<
 
        <br><p>Design idea:</p>
 
         <form action="">
             <input class="box3" type="file" id="myFile" name="filename"><br>
             <input class="box3" type="submit">
+            
+            <input class="Send" type="submit" value="Send Form"/>
         </form>
     </div>
+            
+        
 </div><br>
 </body>
 </html>

@@ -55,17 +55,16 @@ body, html {
    padding-inline: 1em 2em;
    padding: 1em;
    border-radius: 20px;
-   border-width: 20px;
+   border-width: 20px;  
    font-size: larger;
-
 }
 
 img {
    position:relative;
-   background-color: rgba(103, 60, 127, 0.423);
+   background-color: rgba(104, 60, 127, 0.215);
    border-radius: 20px;
    border-style:dotted;
-   border-color: rgb(87, 31, 87);
+   border-color: rgba(87, 31, 87, 0.697);
 
 }
 
@@ -79,4 +78,5 @@ input{
    font-style: italic;
    font-family: "bc-alphapipe", sans-serif;
 }
+
 
